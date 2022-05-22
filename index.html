@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exc #2</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <h1>Welcome To My ToDo List</h1>
+    </div>
+    <div id="content">
+        <div id="searchBar">
+            <input type="text" id="new-task" name="new-task" placeholder="Enter new task" />
+            <div class="searchBarActions">
+                <button class="btn btn-add" onclick="addTask()
+">Add</button>
+                <button class="btn btn-clear-all" onclick="clearAllTasks()">Clear All</button>
+            </div>
+        </div>
+        <div id="tasks">
+            <div class="task">
+                <span>task #1</span>
+                <button class="btn btn-delete">delete</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+    <script src="./js/myscript.js"></script>
+</body>
+</html>
